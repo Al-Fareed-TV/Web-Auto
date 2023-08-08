@@ -26,4 +26,6 @@ public class SearchTests {
         Assert.assertEquals(4, searchItems.size());
         Assert.assertTrue(searchItems.stream().allMatch(item -> item.getName().contains(searchKey)));
     }
+
+
 }
